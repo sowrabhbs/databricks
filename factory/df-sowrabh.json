@@ -1,0 +1,15 @@
+{
+	"name": "df-sowrabh",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "24b6dfed-9035-49d1-9bc6-6f73b9a8ad90",
+		"tenantId": "9f93d550-28e8-4024-9cbe-64a6759fa3e7"
+	}
+}
