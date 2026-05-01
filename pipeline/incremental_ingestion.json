@@ -134,11 +134,22 @@
 				}
 			},
 			{
-				"name": "If Condition1",
+				"name": "ifdataexists",
 				"type": "IfCondition",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "SqlToLake",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@greater(activity('SqlToLake').output.dataRead,0)",
+						"type": "Expression"
+					},
 					"ifTrueActivities": [
 						{
 							"name": "update_cdc",
