@@ -78,7 +78,7 @@
 									"referenceName": "Parquet_dynamic",
 									"type": "DatasetReference",
 									"parameters": {
-										"container": "bronze",
+										"schema": "bronze",
 										"folder": {
 											"value": "@item().table",
 											"type": "Expression"
@@ -119,7 +119,7 @@
 									"referenceName": "Json_dynamic",
 									"type": "DatasetReference",
 									"parameters": {
-										"container": "bronze",
+										"schema": "bronze",
 										"folder": {
 											"value": "@{item().table}_cdc",
 											"type": "Expression"
@@ -182,7 +182,7 @@
 												"referenceName": "Parquet_dynamic",
 												"type": "DatasetReference",
 												"parameters": {
-													"container": "bronze",
+													"schema": "bronze",
 													"folder": {
 														"value": "@item().table",
 														"type": "Expression"
@@ -259,7 +259,7 @@
 												"referenceName": "Json_dynamic",
 												"type": "DatasetReference",
 												"parameters": {
-													"container": "bronze",
+													"schema": "bronze",
 													"folder": {
 														"value": "@{item().table}_cdc",
 														"type": "Expression"
@@ -273,7 +273,7 @@
 												"referenceName": "Json_dynamic",
 												"type": "DatasetReference",
 												"parameters": {
-													"container": "bronze",
+													"schema": "bronze",
 													"folder": {
 														"value": "@{item().table}_cdc",
 														"type": "Expression"

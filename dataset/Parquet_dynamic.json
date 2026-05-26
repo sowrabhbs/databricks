@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"container": {
+			"schema": {
 				"type": "string"
 			},
 			"folder": {
@@ -30,7 +30,7 @@
 					"type": "Expression"
 				},
 				"fileSystem": {
-					"value": "@dataset().container",
+					"value": "@dataset().schema",
 					"type": "Expression"
 				}
 			},
