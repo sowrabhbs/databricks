@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-sowrabh"
+		},
+		"azure_datalake_accountKey": {
+			"value": ""
+		},
+		"azure_sql_password": {
+			"value": ""
+		},
+		"azure_datalake_properties_typeProperties_url": {
+			"value": "https://sowrabh.dfs.core.windows.net/"
+		},
+		"azure_sql_properties_typeProperties_server": {
+			"value": "azureserversow.database.windows.net"
+		},
+		"azure_sql_properties_typeProperties_database": {
+			"value": "sowazuredb"
+		},
+		"azure_sql_properties_typeProperties_userName": {
+			"value": "sowadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
